@@ -1,6 +1,6 @@
 //your JS code here. If required.
-let para = document.querySelector(".counter");
-let ibtn = document.querySelector(".incrementBtn");
+let para = document.getElementById("counter");
+let ibtn = document.getElementById("incrementBtn");
 function fun(){
 	let count = parseInt(para.innerText);
 	alert(count);
